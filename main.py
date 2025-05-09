@@ -11,3 +11,9 @@ def read_root():
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
+
+
+# API tambahan untuk menampilkan semua item 
+@app.get("/items")
+def read_items(q: Union[str, None] = None):
+    return {"q": q}
