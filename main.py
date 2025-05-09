@@ -17,4 +17,3 @@ def read_item(item_id: int, q: Union[str, None] = None):
 @app.get("/items")
 def read_all_items():
     return {"items": ["item1", "item2", "item3"]}
-
