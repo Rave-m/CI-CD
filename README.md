@@ -1,4 +1,4 @@
-Collecting workspace information# FastAPI CI/CD Demo Project
+# FastAPI CI/CD Demo Project
 
 This is a simple FastAPI application to demonstrate CI/CD practices. The project includes a basic API with two endpoints.
 
