@@ -15,5 +15,6 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 # API tambahan untuk menampilkan semua item 
 @app.get("/items")
-def read_items(q: Union[str, None] = None):
-    return {"q": q}
+def read_all_items():
+    return {"items": ["item1", "item2", "item3"]}
+
